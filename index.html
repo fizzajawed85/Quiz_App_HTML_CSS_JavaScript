@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QUIZApp</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Home Page / Form -->
+  <div class="container" id="home-page">
+    <h1 class="title">QUIZApp</h1>
+    <form id="start-form">
+      <div class="form-group">
+        <label for="username">Name</label>
+        <input type="text" id="username" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" required />
+      </div>
+      <p class="instructions"><i class="fas fa-check-circle"></i> Test your skills with 10 timed questions and get instant results.</p>
+      <button type="submit" class="btn">Start Quiz</button>
+    </form>
+  </div>
+
+  <!-- Category Page -->
+  <div class="container hide" id="category-page">
+    <h2>Select a Category</h2>
+    <div class="categories">
+      <button class="btn category-btn" data-category="html">HTML</button>
+      <button class="btn category-btn" data-category="css">CSS</button>
+      <button class="btn category-btn" data-category="js">JavaScript</button>
+    </div>
+  </div>
+
+  <!-- Quiz Page -->
+  <div class="container hide" id="quiz-page">
+    <div class="quiz-header">
+      <div id="question-timer">Time: 30s</div>
+      <div id="question-number">Question 1/10</div>
+    </div>
+    <h3 id="question-text">Question goes here</h3>
+    <ul id="options"></ul>
+    <div class="quiz-nav">
+      <button class="btn" id="back-btn">Back</button>
+      <button class="btn" id="next-btn">Next</button>
+    </div>
+  </div>
+
+  <!-- Result Page -->
+  <div class="container hide" id="result-page">
+    <h2>Quiz Result</h2>
+    <p id="result-text"></p>
+    <div class="result-buttons"></div>
+  </div>
+
+  <!-- Answer Sheet Page -->
+  <div class="container hide" id="answer-sheet-page">
+    <h2>Answer Sheet</h2>
+    <ul id="answer-sheet"></ul>
+    <button class="btn" onclick="location.reload()">Go to Home Page</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
