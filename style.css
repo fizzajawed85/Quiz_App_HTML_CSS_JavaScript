@@ -210,6 +210,35 @@ li.wrong {
   display: none;
 }
 
+/* ========== Result Summary Styling ========== */
+.result-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: rgba(0, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid var(--neon-blue);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+  margin-top: 20px;
+  text-align: left;
+}
+
+.result-summary strong {
+  color: var(--neon-blue);
+  font-weight:bold;
+  text-shadow: 0 0 2px #070b20;
+  font-family:'Pattaya', serif;
+}
+
+.result-summary span {
+  display: block;
+  font-size: 15px;
+  color: var(--white);
+  margin-bottom: 6px;
+}
+
+
 /* ========== Mobile Responsive (370px) ========== */
 @media screen and (max-width: 390px) {
   .container {

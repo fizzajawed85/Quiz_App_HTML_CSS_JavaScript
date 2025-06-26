@@ -79,130 +79,130 @@ let questions = {
       correct: "<input>"
     }
   ],
- css: [
-  {
-    question: "What does CSS stand for?",
-    options: [
-      "Computer Style Sheet",
-      "Cascading Style Sheet",
-      "Creative Style System",
-      "Colorful Style Syntax"
-    ],
-    correct: "Cascading Style Sheet"
-  },
-  {
-    question: "Which property is used to change text color?",
-    options: ["text-style", "color", "font-color", "text-color"],
-    correct: "color"
-  },
-  {
-    question: "Which CSS property sets the background color?",
-    options: ["bg-color", "background", "background-color", "color"],
-    correct: "background-color"
-  },
-  {
-    question: "Which value makes a border invisible?",
-    options: ["none", "0", "transparent", "hidden"],
-    correct: "none"
-  },
-  {
-    question: "What does the 'px' unit stand for in CSS?",
-    options: ["Pixel", "Percent", "Point", "Padding"],
-    correct: "Pixel"
-  },
-  {
-    question: "How do you make text bold in CSS?",
-    options: ["font-weight: bold", "text-style: bold", "weight: bold", "bold: true"],
-    correct: "font-weight: bold"
-  },
-  {
-    question: "Which property sets space inside an element?",
-    options: ["margin", "border", "padding", "spacing"],
-    correct: "padding"
-  },
-  {
-    question: "Which property aligns text to the center?",
-    options: ["text-align", "align-text", "center", "position"],
-    correct: "text-align"
-  },
-  {
-    question: "What is the default position value in CSS?",
-    options: ["relative", "absolute", "static", "fixed"],
-    correct: "static"
-  },
-  {
-    question: "Which property controls the font size?",
-    options: ["font", "text-size", "font-style", "font-size"],
-    correct: "font-size"
-  }
-],
+  css: [
+    {
+      question: "What does CSS stand for?",
+      options: [
+        "Computer Style Sheet",
+        "Cascading Style Sheet",
+        "Creative Style System",
+        "Colorful Style Syntax"
+      ],
+      correct: "Cascading Style Sheet"
+    },
+    {
+      question: "Which property is used to change text color?",
+      options: ["text-style", "color", "font-color", "text-color"],
+      correct: "color"
+    },
+    {
+      question: "Which CSS property sets the background color?",
+      options: ["bg-color", "background", "background-color", "color"],
+      correct: "background-color"
+    },
+    {
+      question: "Which value makes a border invisible?",
+      options: ["none", "0", "transparent", "hidden"],
+      correct: "none"
+    },
+    {
+      question: "What does the 'px' unit stand for in CSS?",
+      options: ["Pixel", "Percent", "Point", "Padding"],
+      correct: "Pixel"
+    },
+    {
+      question: "How do you make text bold in CSS?",
+      options: ["font-weight: bold", "text-style: bold", "weight: bold", "bold: true"],
+      correct: "font-weight: bold"
+    },
+    {
+      question: "Which property sets space inside an element?",
+      options: ["margin", "border", "padding", "spacing"],
+      correct: "padding"
+    },
+    {
+      question: "Which property aligns text to the center?",
+      options: ["text-align", "align-text", "center", "position"],
+      correct: "text-align"
+    },
+    {
+      question: "What is the default position value in CSS?",
+      options: ["relative", "absolute", "static", "fixed"],
+      correct: "static"
+    },
+    {
+      question: "Which property controls the font size?",
+      options: ["font", "text-size", "font-style", "font-size"],
+      correct: "font-size"
+    }
+  ],
   js: [
-  {
-    question: "What does JS stand for?",
-    options: [
-      "JavaSyntax",
-      "JustScript",
-      "JavaScript",
-      "JScript"
-    ],
-    correct: "JavaScript"
-  },
-  {
-    question: "Which keyword declares a variable?",
-    options: ["set", "define", "var", "make"],
-    correct: "var"
-  },
-  {
-    question: "Which method shows a message box?",
-    options: ["alert()", "print()", "show()", "prompt()"],
-    correct: "alert()"
-  },
-  {
-    question: "Which symbol is used for comments?",
-    options: ["<!-- -->", "//", "**", "##"],
-    correct: "//"
-  },
-  {
-    question: "Which method is used to select an element by ID?",
-    options: [
-      "getElementByName",
-      "querySelectorAll",
-      "getElementById",
-      "selectId"
-    ],
-    correct: "getElementById"
-  },
-  {
-    question: "What is the output type of `typeof 5`?",
-    options: ["integer", "number", "value", "digit"],
-    correct: "number"
-  },
-  {
-    question: "Which operator checks value and type?",
-    options: ["==", "=", "===", "!="],
-    correct: "==="
-  },
-  {
-    question: "How do you define a function in JS?",
-    options: [
-      "function myFunc() {}",
-      "def myFunc()",
-      "func myFunc()",
-      "create myFunc()"
-    ],
-    correct: "function myFunc() {}"
-  },
-  {
-    question: "Which loop repeats until false?",
-    options: ["for", "do-while", "while", "if"],
-    correct: "while"
-  },
-  {
-    question: "Which event runs code when a button is clicked?",
-    options: ["onsubmit", "onhover", "onclick", "onload"],
-    correct: "onclick"
-  }
-]
+    {
+      question: "What does JS stand for?",
+      options: [
+        "JavaSyntax",
+        "JustScript",
+        "JavaScript",
+        "JScript"
+      ],
+      correct: "JavaScript"
+    },
+    {
+      question: "Which keyword declares a variable?",
+      options: ["set", "define", "var", "make"],
+      correct: "var"
+    },
+    {
+      question: "Which method shows a message box?",
+      options: ["alert()", "print()", "show()", "prompt()"],
+      correct: "alert()"
+    },
+    {
+      question: "Which symbol is used for comments?",
+      options: ["<!-- -->", "//", "**", "##"],
+      correct: "//"
+    },
+    {
+      question: "Which method is used to select an element by ID?",
+      options: [
+        "getElementByName",
+        "querySelectorAll",
+        "getElementById",
+        "selectId"
+      ],
+      correct: "getElementById"
+    },
+    {
+      question: "What is the output type of `typeof 5`?",
+      options: ["integer", "number", "value", "digit"],
+      correct: "number"
+    },
+    {
+      question: "Which operator checks value and type?",
+      options: ["==", "=", "===", "!="],
+      correct: "==="
+    },
+    {
+      question: "How do you define a function in JS?",
+      options: [
+        "function myFunc() {}",
+        "def myFunc()",
+        "func myFunc()",
+        "create myFunc()"
+      ],
+      correct: "function myFunc() {}"
+    },
+    {
+      question: "Which loop repeats until false?",
+      options: ["for", "do-while", "while", "if"],
+      correct: "while"
+    },
+    {
+      question: "Which event runs code when a button is clicked?",
+      options: ["onsubmit", "onhover", "onclick", "onload"],
+      correct: "onclick"
+    }
+  ]
 };
 
 function escapeHTML(str) {
@@ -293,10 +293,17 @@ function showResult() {
     if (q.options[userAnswers[i]] === q.correct) score++;
   });
 
+  let percentage = Math.round((score / quizData.length) * 100);
+
   resultText.innerHTML = `
-    <strong>${username.value}</strong>, you scored <strong>${score}/10</strong><br>
-    Total Time: <strong>${10 * 30} seconds</strong>
-  `;
+  <div class="result-summary">
+    <span><strong>Name:</strong> ${username.value}</span>
+    <span><strong>Score:</strong> ${score}/10</span>
+    <span><strong>Percentage:</strong> ${percentage}%</span>
+    <span><strong>Total Time:</strong> ${10 * 30} seconds</span>
+  </div>
+`;
+
 
   const buttonsDiv = document.querySelector(".result-buttons");
   buttonsDiv.innerHTML = `
