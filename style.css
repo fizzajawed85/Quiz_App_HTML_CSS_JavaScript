@@ -110,6 +110,7 @@ input:focus {
 .instructions {
   font-size: 14px;
   margin: 20px 0 10px;
+  font-family: 'Pattaya', cursive;
   color: #cfd3e6;
   text-align: left;
 }
